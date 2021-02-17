@@ -1,0 +1,377 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "./style/font";
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+//white pages
+
+
+section {
+    font-family: "terminalGrotesque"; 
+    font-size: 33px;
+    width: 250px;
+    position: fixed; 
+    top : 55%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    @media screen and (min-width: 768px){
+        width:450px; 
+        font-size: 55px; 
+    } 
+
+    a{
+        text-decoration: none;
+        color: black; 
+        font-family: "terminalGrotesqueOpen";   
+    }
+
+    a:hover {
+        font-family: "terminalGrotesque";
+    }
+
+    i{
+        font-size: 25px;    
+    }
+}   
+
+
+
+.runningTextContacts{
+    color: white;
+    font-family: "terminalGrotesqueOpen"; 
+    font-size: 35px;  
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    padding: 1%;
+    text-transform: uppercase; 
+    z-index: 2;
+    text-decoration:none;
+}
+
+.runningText{
+    color: black;
+    font-family: "terminalGrotesqueOpen"; 
+    font-size: 35px;  
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    padding: 1%;
+    text-transform: uppercase; 
+    z-index: 2;
+    text-decoration:none; 
+}
+
+.credits{
+    color: white;
+    font-family: "terminalGrotesque"; 
+    font-size: 8px;   
+    position: fixed;
+    text-transform: uppercase; 
+    text-decoration:none;
+    bottom:1%; 
+    left: 50%;
+    transform: translate(-50%); 
+    text-align: center;
+    width:250px; 
+    a{
+        text-decoration: none;
+        color: white; 
+    }
+    @media screen and (min-width: 768px){ 
+        width:450px; 
+        font-size: 13px; 
+    } 
+}
+//make it a marquee
+.marquee {
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 45s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+    font-family: "terminalGrotesque";
+}
+
+// make it move
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}
+
+
+
+// black pages
+
+#fixedMenu {
+    text-transform: uppercase;
+    background-color: black;
+    font-family: "terminalGrotesque"; 
+    color: white; 
+    padding-top: 8%; 
+    display: none;
+    position: fixed;
+    top:0; 
+    left:0;
+    width:100%;
+    height:100vh;
+
+    @media screen and (min-width: 768px){
+    display: block; 
+    width:50%;  
+    }
+
+    ul {
+       list-style-type: none; 
+
+       li{
+           padding: 3% 5% 3%; 
+
+            a{
+                text-decoration: none;
+                color:white; 
+                font-family: "terminalGrotesqueOpen";
+                font-size: 29px;  
+            }
+
+            a:hover {
+                font-family: "terminalGrotesque"
+            }
+        }       
+    }
+
+    .chevronHome{
+        font-size: 52px;     
+    }
+    
+}
+
+#contentContainer {
+    background-color: black;
+    font-size: 18px;
+    color: white; 
+    padding-right: 5%; 
+    padding-left: 5%;
+
+    p{
+      text-align: justify;
+      font-family: "spaceGrotesk"; 
+      line-height: 150%; 
+    }
+
+    .title{
+        text-transform: uppercase;
+        font-family: "terminalGrotesque"; 
+        font-size: 32px; 
+        padding-bottom: 3%;
+    }
+
+    .subtitle{
+        font-family: "terminalGrotesque"; 
+        display: flex; 
+        justify-content: space-between;
+        font-size: 25px; 
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    img, video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;     
+    }
+
+    .imageCaption{
+        color: white; 
+        font-size: 12px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .divImage{
+        display: flex; 
+    }
+
+    #demimmonde, #fashionablyLate, #threeDrifts, #thtlalit, #degrowth, #urania, #brasilia, #fashionArch, #requiem, #gamespace, #modulor, #about, #itSkills, #otherSkills, #languages, #education, #experience, #residenciesAwards, #logiciElles, #covidKiller, #hackerFlix{
+        padding-top: 21%;   
+    }
+
+    #thtlalit, #modulor, #ResidenciesAwards, #hackerFlix {
+        padding-bottom: 22%;
+    }
+
+    .infoLinks{
+        color: white; 
+        text-decoration: none; 
+    }
+    .infoLinks:hover {
+        text-decoration: underline;
+    }
+
+
+    .downloadLinks{
+        color: white; 
+        font-size: 20px;
+        font-family: "spaceGrotesk";
+        text-decoration: none; 
+    }
+    .downloadLinks:hover {
+        text-decoration: underline;
+    } 
+}
+
+
+#pageContainer {
+    background-color: black;
+    height: 100vh;
+    
+    @media screen and (min-width: 768px){
+        padding-left: 50%; 
+    }
+
+    .backSign{
+        position: absolute;
+        position: fixed; 
+        top: 90%; 
+        left: 50%;  
+        background-color: white;
+        border-radius: 50%;
+        width: 52px; 
+        height: 52px; 
+        text-align: center; 
+        line-height: 52px;
+        font-size: 52px;
+        font-family: "terminalGrotesque"; 
+        text-decoration: none; 
+        color: black; 
+        transform: translate(-50%);
+
+        @media screen and (min-width: 768px){
+            display: none;  
+        }
+    }  
+}
+
+
+
+//cv
+
+.listSkills {
+    list-style-type: none;
+    color: white; 
+    font-family: "spaceGrotesk";
+    font-size: 18px;
+    line-height: 150%; 
+    margin: 3%;  
+}
+
+.levelLangue{
+    font-family: "spaceGrotesk";
+    font-size: 18px;
+}
+
+.containerFlex{
+    display: flex; 
+    font-family: "terminalGrotesque";
+    font-size: 20px;
+    line-height: 150%; 
+    justify-content: space-between;
+    padding: 5% 0;
+    .flexDate{
+        width: 15%; 
+        text-align: left; 
+    }  
+    ul{
+        list-style-type: none;
+    }
+    .flexPlace{ 
+        width: 15%;
+        text-align: right; 
+    }
+    .centralPart{
+        width: 70%; 
+
+        .flexTitle{
+            font-size: 25px; 
+            font-family: "spaceGrotesk";
+            font-weight: bold; 
+            a{
+                color: white; 
+                text-decoration: none;
+            } 
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .flexSubtitle{
+            font-size: 18px; 
+            font-family: "spaceGrotesk";
+            text-align: justify;  
+            
+        }
+    } 
+}
+
+// it skills
+
+
+
+#skillsSingle{
+    width: 105%; 
+    padding-bottom: 4%; 
+}
+
+.containerSkills {
+    text-transform: uppercase;
+    width: 95%;
+    height: 80%; 
+    font-family: "spaceGrotesk";
+    font-size: 18px; 
+    color:white;
+    text-align: justify;
+    margin-bottom: 5%; 
+    ul {
+      list-style-type: none;  
+    }
+}
+
+//coding projects
+
+.projectTag{
+    display:flex; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+    .skillTag{ 
+        font-family: "spaceGrotesk";
+        text-transform: uppercase;
+        border: solid white 1px; 
+        border-radius : 30px;
+        padding: 3px 10px 6px 10px;
+        margin: auto;
+    } 
+
+}
+
+
+
+
+
+
+
+

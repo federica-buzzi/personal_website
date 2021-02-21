@@ -1,10 +1,7 @@
 export const federicaBuzzi = () => {
-  const contentFedericaBuzzi = `<a href="#" class="runningText marquee">
+  const contentFedericaBuzzi = `<p class="runningText marquee">
       Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-  </a>
+  </p>
       <div id="pageContainer">
         <div id="fixedMenu">
           <ul>
@@ -43,73 +40,73 @@ export const federicaBuzzi = () => {
             </p></br>
             <p>
               In 2020, wanting to integrate technical skills into my profile, I joined the Web Application Developer Training at Interface3 in Brussels. Thanks to this year-long comprehensive program, I gained an overview on how the web works, from front end to back end and databases.
-            </p>
+            </p></br>
             <div class="subtitle">
               <a class="downloadLinks" href="./downloadable/federica_buzzi_CV_EN.pdf" download>Download CV [EN]</a>
-              <a class="downloadLinks" href="./downloadable/federica_buzzi_CV_EN.pdf" download>Download CV [FR]</a>
+              <a class="downloadLinks" href="./downloadable/federica_buzzi_CV_FR.pdf" download>Download CV [FR]</a>
             </div>  
           </div>
           <div id="itSkills">
             <div class="title">IT skills</div>
-             <div class="subtitle">Front end</div>
+             <div class="skillsSubtitle">Front end</div>
             <div class="containerSkills">
               JavaScript ~ React ~ HTML5 ~ CSS3 ~ Bootstrap ~ Tailwind ~ Ajax ~  XML/XSLT ~ W3C Standards ~ Responsive Web Design
             </div>
-            <div class="subtitle">Back end</div>
+            <div class="skillsSubtitle">Back end</div>
             <div class="containerSkills">
               Angular ~ Node.js ~ PHP ~ Symfony ~ C# ~ ASP.NET ~ Python ~ IIS and Apache Servers Configuration 
             </div>
-            <div class="subtitle">Database</div>
+            <div class="skillsSubtitle">Database</div>
             <div class="containerSkills">
               SQL ~ MySQL ~ Microsoft SQL server ~ PHPMyadmin ~ Uml Analysis Model
             </div>
-            <div class="subtitle">IT Project Management</div>
+            <div class="skillsSubtitle">IT Project Management</div>
             <div class="containerSkills">
               Website Architecture ~Mockups ~ Ergonomics ~ Website hosting ~ Web copyrighting ~ SEO ~ RAD ~ SCRUM  ~ Internet law
             </div>  
-            <div class="subtitle">Design</div>
+            <div class="skillsSubtitle">Design</div>
             <div class="containerSkills">
               InDesign ~ Photoshop ~ Adobe XD
             </div>
-            <div class="subtitle">Tools</div>
+            <div class="skillsSubtitle">Tools</div>
             <div class="containerSkills">
               Visual Studio ~ Visual Studio Code ~ GitHub
             </div> 
-            <div class="subtitle">CMS</div>
+            <div class="skillsSubtitle">CMS</div>
             <div class="containerSkills">
               Drupal ~ WordPress
             </div>  
           </div>  
           <div id="otherSkills">
             <div class="title">Other skills</div>
-            <div class="subtitle">Personal</div>
+            <div class="skillsSubtitle">Personal</div>
             <div class="containerSkills">
               Creativity ~ critical thinking ~ interpersonal skills ~ problem solving ~ adaptability ~ self learning   
             </div>  
-            <div class="subtitle">Digital Communication</div>
+            <div class="skillsSubtitle">Digital Communication</div>
             <div class="containerSkills">
               writing and editing ~ newsletter ~ graphic design ~ social media
             </div>
-            <div class="subtitle">Project Management</div>
+            <div class="skillsSubtitle">Project Management</div>
             <div class="containerSkills">
               team work ~ time management ~ logistics ~ administrative tasks
             </div>
           </div> 
           <div id="languages">
             <div class="title">Languages</div>
-            <div class="subtitle">
+            <div class="languagesSubtitle">
               <span>English</span>
               <span class="levelLangue">Proficient</span>
             </div>
-            <div class="subtitle">
+            <div class="languagesSubtitle">
               <span>French</span>
               <span class= "levelLangue">Advanced</span>
             </div>
-            <div class="subtitle">
+            <div class="languagesSubtitle">
               <span>Dutch</span>
               <span class="levelLangue">Notions</span>
             </div>
-            <div class="subtitle">
+            <div class="languagesSubtitle">
               <span>Italian</span>
               <span class="levelLangue">Native</span>
             </div>

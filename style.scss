@@ -8,11 +8,10 @@
 
 //white pages
 
-
 section {
     font-family: "terminalGrotesque"; 
     font-size: 33px;
-    width: 250px;
+    width: 300px; 
     position: fixed; 
     top : 55%; 
     left: 50%; 
@@ -20,7 +19,7 @@ section {
     text-align: center;
 
     @media screen and (min-width: 768px){
-        width:450px; 
+        width:600px; 
         font-size: 55px; 
     } 
 
@@ -37,6 +36,12 @@ section {
     i{
         font-size: 25px;    
     }
+    span {
+        font-size: 25px;
+        @media screen and (min-width: 768px){
+        font-size: 48px; 
+        } 
+    }
 }   
 
 
@@ -44,52 +49,56 @@ section {
 .runningTextContacts{
     color: white;
     font-family: "terminalGrotesqueOpen"; 
-    font-size: 35px;  
+    font-size: 40px;  
     width: 100%;
     background-color: black;
     position: fixed;
-    padding: 1%;
+    padding: 1.5%;
     text-transform: uppercase; 
     z-index: 2;
     text-decoration:none;
+    @media screen and (min-width: 768px){ 
+        font-size: 50px; 
+    } 
 }
 
 .runningText{
     color: black;
     font-family: "terminalGrotesqueOpen"; 
-    font-size: 35px;  
+    font-size: 40px;  
     width: 100%;
     background-color: white;
     position: fixed;
-    padding: 1%;
+    padding: 1.5%;
     text-transform: uppercase; 
     z-index: 2;
     text-decoration:none; 
+     @media screen and (min-width: 768px){ 
+        font-size: 50px; 
+    } 
 }
 
 .credits{
-    color: white;
-    font-family: "terminalGrotesque"; 
-    font-size: 8px;   
-    position: fixed;
-    text-transform: uppercase; 
-    text-decoration:none;
-    bottom:1%; 
-    left: 50%;
-    transform: translate(-50%); 
-    text-align: center;
-    width:250px; 
+    @media screen and (min-width: 768px){  
+        color: white;
+        font-family: "terminalGrotesque"; 
+        font-size: 8px;   
+        position: fixed;
+        text-transform: uppercase; 
+        text-decoration:none;
+        bottom:1%; 
+        right: 1%;
+        writing-mode: vertical-rl;
+        text-align: center;
     a{
         text-decoration: none;
         color: white; 
     }
-    @media screen and (min-width: 768px){ 
-        width:450px; 
-        font-size: 13px; 
     } 
 }
 //make it a marquee
-.marquee {
+
+.marquee{
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
@@ -97,15 +106,11 @@ section {
     animation: marquee 45s linear infinite;
 }
 
-.marquee:hover {
-    animation-play-state: paused;
-    font-family: "terminalGrotesque";
-}
 
 // make it move
 @keyframes marquee {
-    0%   { text-indent: 27.5em }
-    100% { text-indent: -105em }
+    0%   { text-indent: 0em }
+    100% { text-indent: -50em }
 }
 
 
@@ -126,8 +131,8 @@ section {
     height:100vh;
 
     @media screen and (min-width: 768px){
-    display: block; 
-    width:50%;  
+        display: block; 
+        width:50%;  
     }
 
     ul {
@@ -140,7 +145,7 @@ section {
                 text-decoration: none;
                 color:white; 
                 font-family: "terminalGrotesqueOpen";
-                font-size: 29px;  
+                font-size: 25px;  
             }
 
             a:hover {
@@ -157,13 +162,15 @@ section {
 
 #contentContainer {
     background-color: black;
-    font-size: 18px;
+    font-size: 16px;
     color: white; 
     padding-right: 5%; 
     padding-left: 5%;
+    @media screen and (min-width: 768px){
+        font-size: 18px;  
+    }
 
     p{
-      text-align: justify;
       font-family: "spaceGrotesk"; 
       line-height: 150%; 
     }
@@ -171,20 +178,48 @@ section {
     .title{
         text-transform: uppercase;
         font-family: "terminalGrotesque"; 
-        font-size: 32px; 
+        font-size: 28px; 
         padding-bottom: 3%;
+        @media screen and (min-width: 768px){
+          font-size: 32px;
+        }
     }
 
     .subtitle{
         font-family: "terminalGrotesque"; 
         display: flex; 
         justify-content: space-between;
-        font-size: 25px; 
+        font-size: 20px; 
         padding-top: 2%;
         padding-bottom: 2%;
+        @media screen and (min-width: 768px){
+          font-size: 25px;
+        }
     }
 
-    img, video {
+    .skillsSubtitle{
+        font-family: "spaceGrotesk"; 
+        font-size: 20px; 
+        padding-top: 2%;
+        padding-bottom: 2%;
+        @media screen and (min-width: 768px){
+          font-size: 25px;
+        }
+    }
+
+    .languagesSubtitle{
+        font-family: "spaceGrotesk";
+        display:flex;  
+        font-size: 20px; 
+        padding-top: 2%;
+        padding-bottom: 2%;
+        justify-content: space-between;
+        @media screen and (min-width: 768px){
+          font-size: 25px;
+        }
+    }
+
+    img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -195,15 +230,19 @@ section {
 
     .imageCaption{
         color: white; 
-        font-size: 12px;
+        font-size: 10px;
         writing-mode: vertical-rl;
         text-orientation: mixed;
         margin-top: 5%;
         margin-bottom: 5%;
+        @media screen and (min-width: 768px){
+          font-size: 12px;
+        }
     }
 
     .divImage{
         display: flex; 
+        width: 100%; 
     }
 
     #demimmonde, #fashionablyLate, #threeDrifts, #thtlalit, #degrowth, #urania, #brasilia, #fashionArch, #requiem, #gamespace, #modulor, #about, #itSkills, #otherSkills, #languages, #education, #experience, #residenciesAwards, #logiciElles, #covidKiller, #hackerFlix{
@@ -225,12 +264,22 @@ section {
 
     .downloadLinks{
         color: white; 
-        font-size: 20px;
+        font-size: 18px;
         font-family: "spaceGrotesk";
         text-decoration: none; 
+        font-family: "spaceGrotesk";
+        text-transform: uppercase;
+        border: solid white 1px; 
+        border-radius : 30px;
+        padding: 3px 10px 6px 10px;
+        margin: auto;
+        @media screen and (min-width: 768px){
+          font-size: 20px;
+        }
     }
     .downloadLinks:hover {
-        text-decoration: underline;
+        color: black;
+        background-color: white;
     } 
 }
 
@@ -274,23 +323,32 @@ section {
     list-style-type: none;
     color: white; 
     font-family: "spaceGrotesk";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%; 
     margin: 3%;  
+    @media screen and (min-width: 768px){
+        font-size: 18px;
+    }
 }
 
 .levelLangue{
     font-family: "spaceGrotesk";
-    font-size: 18px;
+    font-size: 16px;
+    @media screen and (min-width: 768px){
+        font-size: 18px;
+    }
 }
 
 .containerFlex{
     display: flex; 
     font-family: "terminalGrotesque";
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%; 
     justify-content: space-between;
     padding: 5% 0;
+    @media screen and (min-width: 768px){
+        font-size: 20px;
+    }
     .flexDate{
         width: 15%; 
         text-align: left; 
@@ -306,9 +364,12 @@ section {
         width: 70%; 
 
         .flexTitle{
-            font-size: 25px; 
+            font-size: 22px; 
             font-family: "spaceGrotesk";
             font-weight: bold; 
+            @media screen and (min-width: 768px){
+                font-size: 25px;
+            }
             a{
                 color: white; 
                 text-decoration: none;
@@ -319,10 +380,11 @@ section {
         }
 
         .flexSubtitle{
-            font-size: 18px; 
+            font-size: 16px; 
             font-family: "spaceGrotesk";
-            text-align: justify;  
-            
+            @media screen and (min-width: 768px){
+                font-size: 18px;
+            }  
         }
     } 
 }
@@ -341,12 +403,12 @@ section {
     width: 95%;
     height: 80%; 
     font-family: "spaceGrotesk";
-    font-size: 18px; 
+    font-size: 16px; 
     color:white;
-    text-align: justify;
     margin-bottom: 5%; 
-    ul {
-      list-style-type: none;  
+    line-height: 150%;
+    @media screen and (min-width: 768px){
+        font-size: 18px;
     }
 }
 
@@ -357,6 +419,7 @@ section {
     margin-top: 5%;
     margin-bottom: 5%;
     justify-content: space-evenly;
+    width: 100%; 
     .skillTag{ 
         font-family: "spaceGrotesk";
         text-transform: uppercase;

@@ -1,8 +1,8 @@
 export const curatorialProjects = () => {
   const contentCuratorialProjects = `
-    <a href="#" class="runningText marquee">
-      curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;&nbsp;
-    </a>
+    <p class="runningText marquee">
+      curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curatorial projects&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;
+    </p>
     <div id="pageContainer">
         <div id="fixedMenu">
           <ul>
@@ -22,7 +22,7 @@ export const curatorialProjects = () => {
               <span>2019</span>
             </div>
             <div class="divImage">
-              <img src="./images/demimmonde_logo.png" alt="" loading="lazy"/>
+              <div><img src="./images/demimmonde_logo.png" alt=""/></div>
               <p class="imageCaption">Graphic identity_Roxanne Maillet</p>
             </div>  
             <p>
@@ -33,7 +33,7 @@ export const curatorialProjects = () => {
               other characters on the fringes of respectable society.
             </p>
             <div class="divImage">
-              <img src="./images/demimmonde_1.jpg" alt="" loading="lazy" />
+              <div><img src="./images/demimmonde_1.jpg" alt="" /></div>
               <p class="imageCaption">Ph_Serena Vittorini</p>
             </div>
             <p>
@@ -45,7 +45,7 @@ export const curatorialProjects = () => {
               couplings.
             </p>
             <div class="divImage">
-              <img src="./images/demimmonde_2.jpg" alt="" loading="lazy"/>
+              <div><img src="./images/demimmonde_2.jpg" alt=""/></div>
               <p class="imageCaption">Stef Meul, Ph_Serena Vittorini</p>
             </div>  
             <p>
@@ -58,7 +58,7 @@ export const curatorialProjects = () => {
               aspects of sex.
             </p>
             <div class="divImage">
-              <img src="./images/demimmonde_3.jpg" alt="" loading="lazy" />
+              <div><img src="./images/demimmonde_3.jpg" alt="" /></div>
               <p class="imageCaption">Donna Pavona, Ph_Serena Vittorini</p>
             </div>  
             <p>
@@ -67,7 +67,7 @@ export const curatorialProjects = () => {
               the door to new ways of experiencing spaces designed for sex.
             </p>
             <div class="divImage">
-              <img src="./images/demimmonde_4.jpg" alt="" loading="lazy" />
+              <div><img src="./images/demimmonde_4.jpg" alt="" /></div>
               <p class="imageCaption">TOMBOYS DON’T CRY, Ph_Serena Vittorini</p>
             </div>  
             <span class="subtitle">Works by</span>
@@ -89,7 +89,7 @@ export const curatorialProjects = () => {
               <span>2018</span>
             </div>
             <div class="divImage">
-              <img src="./images/fashionably_late_jp_cover.jpg" alt="" loading="lazy"/>
+              <div><img src="./images/fashionably_late_jp_cover.jpg" alt=""/></div>
               <p class="imageCaption">Fashionably Late Japan, Graphic design_Genki Abe</p>
             </div>  
             <p>
@@ -102,7 +102,7 @@ export const curatorialProjects = () => {
               aesthetics and structure.
             </p>
             <div class="divImage">
-              <img src="./images/fashionably_late_it_cover.jpg" alt="" loading="lazy" />
+              <div><img src="./images/fashionably_late_it_cover.jpg" alt="" /></div>
               <p class="imageCaption">Fashionably Late Italy, Graphic design_Genki Abe</p>
             </div>  
             <p>
@@ -115,7 +115,7 @@ export const curatorialProjects = () => {
               PUGMENT.
             </p>
             <div class="divImage">
-              <img src="./images/fashionably_late_screenshot.jpg" alt="" loading="lazy" />
+              <div><img src="./images/fashionably_late_screenshot.jpg" alt="" /></div>
               <p class="imageCaption">Graphic design_Genki Abe</p>
             </div>  
             <span class="subtitle">Works by</span>
@@ -134,7 +134,7 @@ export const curatorialProjects = () => {
               <span>2017</span>
             </div>
             <div class="divImage">
-              <img src="./images/3drifts_1.png" alt="" loading="lazy"/>
+              <div><img src="./images/3drifts_1.png" alt=""/></div>
               <p class="imageCaption">Graphic identity_Ted Hyunhak Yoon</p>
             </div>  
             <p>
@@ -146,7 +146,7 @@ export const curatorialProjects = () => {
               landscapes.
             </p>
             <div class="divImage">
-              <img src="./images/3drifts_2.jpg" alt="" loading="lazy"/>
+              <div><img src="./images/3drifts_2.jpg" alt=""/></div>
               <p class="imageCaption">Maze Walkthrough_Serafín Álvarez</p>
             </div>  
             <p>
@@ -158,7 +158,7 @@ export const curatorialProjects = () => {
               alternative scenarios.
             </p>
             <div class="divImage">
-              <img src="./images/3drifts_3.jpg" alt="" loading="lazy"/>
+              <div><img src="./images/3drifts_3.jpg" alt=""/></div>
               <p class="imageCaption">Unreal Estate_Lawrence Lek</p>
             </div>  
             <p>
@@ -170,7 +170,7 @@ export const curatorialProjects = () => {
               between them seem on the verge of breaking down.
             </p>
             <div class="divImage">
-              <img src="./images/3drifts_4.jpg" alt="" loading="lazy"/>
+              <div><img src="./images/3drifts_4.jpg" alt=""/></div>
               <p class="imageCaption">Maze Walkthrough, Ph_Takashi Osaka</p>
             </div>  
             <span class="subtitle">Works by</span>
@@ -190,7 +190,7 @@ export const curatorialProjects = () => {
               <span>2016</span>
             </div>
             <div class="divImage">
-              <img src="./images/thtlalit_1.jpg" alt="" loading="lazy"/>
+              <div><img src="./images/thtlalit_1.jpg" alt=""/></div>
               <p class="imageCaption">Installation view, Ph_Alexander Burgess</p>
             </div>  
             <p>
@@ -203,7 +203,7 @@ export const curatorialProjects = () => {
               exhibition design and curating.
             </p>
             <div class="divImage">
-              <img src="./images/thtlalit_2.jpg" alt="" loading="lazy"/>
+              <div><img src="./images/thtlalit_2.jpg" alt=""/></div>
               <p class="imageCaption">Installation view, Ph_Alexander Burgess</p>
             </div>
             <p>
@@ -217,7 +217,8 @@ export const curatorialProjects = () => {
               and architecture as a solely material manifestation.
             </p>
             <div class="divImage">
-              <img src="./images/thtlalit_3.jpg" alt="" loading="lazy" /><p class="imageCaption">Installation view, Ph_Alexander Burgess</p>
+              <div><img src="./images/thtlalit_3.jpg" alt="" /></div>
+              <p class="imageCaption">Installation view, Ph_Alexander Burgess</p>
             </div>
             <p>
               Radio transmissions are broadcast to delineate different sonic
@@ -228,7 +229,7 @@ export const curatorialProjects = () => {
               cross-border commerce collide.
             </p>
             <div class="divImage">
-              <img src="./images/thtlalit_4.jpg" alt="" loading="lazy" />
+              <div><img src="./images/thtlalit_4.jpg" alt="" /></div>
               <p class="imageCaption">Installation view, Ph_Alexander Burgess</p>
             </div>
             <span class="subtitle">Project by</span>

@@ -1,11 +1,9 @@
 export const writing = () => {
   const contentWriting = ` 
-  <a href="#" class="runningText marquee">
+  <p class="runningText marquee">
       writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-  </a>
+      writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+  </p>
   <div id="pageContainer">
         <div id="fixedMenu">
           <ul>

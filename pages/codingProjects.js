@@ -1,11 +1,8 @@
 export const codingProjects = () => {
   const contentCodingProjects = ` 
-  <a href="#" class="runningText marquee">
+  <p class="runningText marquee">
       coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-  </a>
+  </p>
   <div id="pageContainer">
         <div id="fixedMenu">
           <ul>
@@ -38,10 +35,8 @@ export const codingProjects = () => {
               <span>2020</span>
             </div>
             <a href="https://logici-elles.if3.dev/" target="_blank"><img src="./images/logicielles.png" alt="" loading="lazy"/></a>
-            <div class="projectTag">
-                <div class="skillTag">JavaScript</div>
-                <div class="skillTag">HTML5</div>
-                <div class="skillTag">CSS3</div>
+            <div class="containerSkills">
+                JavaScript ~ HTML5 ~ CSS3
             </div>
             <p>
               How many female computer scientist do you know? Discover the most brilliant female computer scientists who have shaped the history of digital technology through a personality test, a timeline and a list of resources.
@@ -57,11 +52,8 @@ export const codingProjects = () => {
               <span>2020</span>
             </div>
             <a href="#" target="_blank"><img src="./images/covidkiller.png" alt="" loading="lazy"/></a>
-            <div class="projectTag">
-                <div class="skillTag">JavaScript</div>
-                <div class="skillTag">HTML5</div>
-                <div class="skillTag">CSS3</div>
-                <div class="skillTag">Responsive Web Design</div>
+            <div class="containerSkills">
+                JavaScript ~ HTML5 ~ CSS3 ~ Responsive Web Design
             </div>
             <p>
                 A website displaying Covid-19 vaccines.
@@ -77,11 +69,8 @@ export const codingProjects = () => {
               <span>2020</span>
             </div>
             <a href="#" target="_blank"><img src="./images/hackerflix.png" alt="" loading="lazy" /></a>
-            <div class="projectTag">
-                <div class="skillTag">JavaScript</div>
-                <div class="skillTag">HTML5</div>
-                <div class="skillTag">CSS3</div>
-                <div class="skillTag">Responsive Web Design</div>
+            <div class="containerSkills">
+                JavaScript ~ HTML5 ~ CSS3 ~ Responsive Web Design
             </div>
             <p>
               A curated list of movies every hacker & cyberpunk must watch by Loic Truchot. 

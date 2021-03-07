@@ -50,11 +50,11 @@ export const federicaBuzzi = () => {
             <div class="title">IT skills</div>
              <div class="skillsSubtitle">Front end</div>
             <div class="containerSkills">
-              JavaScript ~ React ~ HTML5 ~ CSS3 ~ Bootstrap ~ Tailwind ~ Ajax ~  XML/XSLT ~ W3C Standards ~ Responsive Web Design
+              JavaScript ~ React ~ HTML5 ~ CSS3 ~ Bootstrap ~ Tailwind ~ Ajax ~  XML/XSLT ~ Template Integration ~ W3C Standards ~ Responsive Web Design
             </div>
             <div class="skillsSubtitle">Back end</div>
             <div class="containerSkills">
-              Angular ~ Node.js ~ PHP ~ Symfony ~ C# ~ ASP.NET ~ Python ~ IIS and Apache Servers Configuration 
+              Node.js ~ Angular ~ PHP ~ Symfony ~ C# ~ ASP.NET ~ Python ~ IIS and Apache Servers Configuration 
             </div>
             <div class="skillsSubtitle">Database</div>
             <div class="containerSkills">
@@ -66,11 +66,11 @@ export const federicaBuzzi = () => {
             </div>  
             <div class="skillsSubtitle">Design</div>
             <div class="containerSkills">
-              InDesign ~ Photoshop ~ Adobe XD
+              InDesign ~ Illustrator ~ Adobe XD
             </div>
             <div class="skillsSubtitle">Tools</div>
             <div class="containerSkills">
-              Visual Studio ~ Visual Studio Code ~ GitHub
+              Visual Studio ~ Visual Studio Code ~ GitHub ~ Brackets ~ Postman
             </div> 
             <div class="skillsSubtitle">CMS</div>
             <div class="containerSkills">

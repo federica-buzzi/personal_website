@@ -10,10 +10,10 @@
 
 section {
     font-family: "terminalGrotesque"; 
-    font-size: 33px;
+    font-size: 28px;
     width: 300px; 
     position: fixed; 
-    top : 55%; 
+    top : 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
     text-align: center;
@@ -21,25 +21,27 @@ section {
     @media screen and (min-width: 768px){
         width:600px; 
         font-size: 55px; 
+        top : 60%; 
     } 
 
     a{
         text-decoration: none;
         color: black; 
-        font-family: "terminalGrotesqueOpen";   
+        font-family: "terminalGrotesqueOpen";
+        font-weight: 55px;
+        transition: 0.5s font-variation-settings ease-in;
     }
 
     a:hover {
         font-family: "terminalGrotesque";
+        font-weight: 55px;
     }
 
+
     i{
-        font-size: 25px;    
-    }
-    span {
-        font-size: 25px;
+        font-size: 30px;
         @media screen and (min-width: 768px){
-        font-size: 48px; 
+        font-size: 40px; 
         } 
     }
 }   
@@ -82,7 +84,7 @@ section {
     @media screen and (min-width: 768px){  
         color: white;
         font-family: "terminalGrotesque"; 
-        font-size: 8px;   
+        font-size: 13px;   
         position: fixed;
         text-transform: uppercase; 
         text-decoration:none;

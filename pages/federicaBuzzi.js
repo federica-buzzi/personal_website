@@ -42,8 +42,8 @@ export const federicaBuzzi = () => {
               In 2020, wanting to integrate technical skills into my profile, I joined the Web Application Developer Training at Interface3 in Brussels. Thanks to this year-long comprehensive program, I gained an overview on how the web works, from front end to back end and databases.
             </p></br>
             <div class="subtitle">
-              <a class="downloadLinks" href="./downloadable/federica_buzzi_CV_EN.pdf" download>Download CV [EN]</a>
-              <a class="downloadLinks" href="./downloadable/federica_buzzi_CV_FR.pdf" download>Download CV [FR]</a>
+              <a class="downloadLinks" href="./downloadable/Federica_Buzzi_CV_EN.pdf" download>Download CV [EN]</a>
+              <a class="downloadLinks" href="./downloadable/Federica_Buzzi_CV_FR.pdf" download>Download CV [FR]</a>
             </div>  
           </div>
           <div id="itSkills">

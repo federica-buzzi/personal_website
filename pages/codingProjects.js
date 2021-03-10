@@ -34,7 +34,7 @@ export const codingProjects = () => {
               <span>Code and Decode Hackathon</span>
               <span>2020</span>
             </div>
-            <a href="https://logici-elles.if3.dev/" target="_blank"><img src="./images/logicielles.png" alt="" loading="lazy"/></a>
+            <img src="./images/logicielles_image.png" alt="" loading="lazy"/>
             <div class="containerSkills">
                 JavaScript ~ HTML5 ~ CSS3
             </div>
@@ -42,6 +42,7 @@ export const codingProjects = () => {
               How many female computer scientist do you know? Discover the most brilliant female computer scientists who have shaped the history of digital technology through a personality test, a timeline and a list of resources.
             </p><br/> 
             <p> 
+              <a href= "https://logici-elles.if3.dev/" target="_blank" class="infoLinks">Visit website</a><br/>  
               <a href= "https://github.com/paulinecoudert/itwomen" target="_blank" class="infoLinks">GitHub</a> 
             </p>
           </div>
@@ -51,7 +52,7 @@ export const codingProjects = () => {
               <span>Interface3</span>
               <span>2020</span>
             </div>
-            <a href="#" target="_blank"><img src="./images/covidkiller.png" alt="" loading="lazy"/></a>
+            <img src="./images/covid_killer_image.png" alt="" loading="lazy"/>
             <div class="containerSkills">
                 JavaScript ~ HTML5 ~ CSS3 ~ Responsive Web Design
             </div>
@@ -59,6 +60,7 @@ export const codingProjects = () => {
                 A website displaying Covid-19 vaccines.
             </p><br/> 
             <p> 
+              <a href= "https://fk7d4.csb.app/" target="_blank" class="infoLinks">Visit website</a><br/> 
               <a href= "https://github.com/federica-buzzi/covid_killer_federica" target="_blank" class="infoLinks">GitHub</a> 
             </p>
           </div>
@@ -68,7 +70,7 @@ export const codingProjects = () => {
               <span>Interface3</span>
               <span>2020</span>
             </div>
-            <a href="#" target="_blank"><img src="./images/hackerflix.png" alt="" loading="lazy" /></a>
+            <img src="./images/hackerflix_image.png" alt="" loading="lazy" />
             <div class="containerSkills">
                 JavaScript ~ HTML5 ~ CSS3 ~ Responsive Web Design
             </div>
@@ -76,6 +78,7 @@ export const codingProjects = () => {
               A curated list of movies every hacker & cyberpunk must watch by Loic Truchot. 
             </p><br/> 
             <p> 
+              <a href= "https://um9le.csb.app/" target="_blank" class="infoLinks">Visit website</a><br/> 
               <a href= "https://github.com/federica-buzzi/hackerflix_again" target="_blank" class="infoLinks">GitHub</a> 
             </p>
         </div>

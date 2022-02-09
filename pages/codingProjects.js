@@ -1,8 +1,10 @@
 export const codingProjects = () => {
   const contentCodingProjects = ` 
-  <p class="runningText marquee">
+  <div class="runningText marquee">
+    <span>
       coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;coding projects&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-  </p>
+    </span>  
+  </div>
   <div id="pageContainer">
         <div id="fixedMenu">
           <ul>
@@ -34,7 +36,7 @@ export const codingProjects = () => {
               <span>Code and Decode Hackathon</span>
               <span>2020</span>
             </div>
-            <img src="./images/logicielles_image.png" alt="" loading="lazy"/>
+            <img src="./images/logicielles_image.png" aria-hidden="true" loading="lazy"/>
             <div class="containerSkills">
                 JavaScript ~ HTML5 ~ CSS3
             </div>
@@ -52,7 +54,7 @@ export const codingProjects = () => {
               <span>Interface3</span>
               <span>2020</span>
             </div>
-            <img src="./images/covid_killer_image.png" alt="" loading="lazy"/>
+            <img src="./images/covid_killer_image.png" aria-hidden="true" loading="lazy"/>
             <div class="containerSkills">
                 JavaScript ~ HTML5 ~ CSS3 ~ Responsive Web Design
             </div>
@@ -70,7 +72,7 @@ export const codingProjects = () => {
               <span>Interface3</span>
               <span>2020</span>
             </div>
-            <img src="./images/hackerflix_image.png" alt="" loading="lazy" />
+            <img src="./images/hackerflix_image.png" aria-hidden="true" loading="lazy" />
             <div class="containerSkills">
                 JavaScript ~ HTML5 ~ CSS3 ~ Responsive Web Design
             </div>

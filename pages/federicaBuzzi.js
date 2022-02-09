@@ -1,7 +1,10 @@
 export const federicaBuzzi = () => {
-  const contentFedericaBuzzi = `<p class="runningText marquee">
+  const contentFedericaBuzzi = `
+  <div class="runningText marquee">
+    <span>
       Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-  </p>
+    </span>  
+  </div>
       <div id="pageContainer">
         <div id="fixedMenu">
           <ul>

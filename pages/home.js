@@ -1,14 +1,18 @@
 export const home = () => {
   const contentHome = `
-  <p class="runningTextContacts marquee">
-      I'm looking for an internship starting in May
-      2021&nbsp;~&nbsp; I'm looking for an internship
-      starting in May 2021 &nbsp;~&nbspI'm looking for an internship starting in May 2021&nbsp;~&nbsp; I'm looking for an internship
-      starting in May 2021 &nbsp;~&nbspI'm looking for an internship starting in May 2021&nbsp;~&nbsp; I'm looking for an internship
-      starting in May 2021 &nbsp;~&nbsp;
-  </p>
+  <div class="runningTextContacts marquee">
+    <span>
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;hello &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    </span>
+  </div>  
   <section id="paragraphIntro">
-    Hi there!<br />
     I'm <a href="#" id="toFedericaBuzzi">Federica Buzzi</a>,<br/> a junior web developer based in Brussels. Check out my
     <a href="#" id="toCodingProjects">coding</a> projects and some of my <a href="#" id="toWriting">writing</a> and <a href="#" id="toCuratorialProjects">curatorial</a> projects.<br />
     Let's <a href="#" id="toContacts">connect</a>?<br /><br />

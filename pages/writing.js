@@ -1,9 +1,11 @@
 export const writing = () => {
   const contentWriting = ` 
-  <p class="runningText marquee">
+  <div class="runningText marquee">
+    <span>
       writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
       writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-  </p>
+    </span>  
+  </div>
   <div id="pageContainer">
         <div id="fixedMenu">
           <ul>
@@ -48,7 +50,7 @@ export const writing = () => {
               <span>2020</span>
             </div>
             <div class="divImage">
-              <img src="./images/degrowth.jpg" alt="" />
+              <img src="./images/degrowth.jpg" aria-hidden="true" />
               <p class="imageCaption">Rimini Protokol, Ph_OAT</p>
             </div>  
             <p>
@@ -63,7 +65,7 @@ export const writing = () => {
               <span>2020</span>
             </div>
             <div class="divImage">
-              <img src="./images/urania.jpg" alt="" />
+              <img src="./images/urania.jpg" aria-hidden="true" />
               <p class="imageCaption">Planet Uranus by the spacecraft Voyager 2</p>
             </div>
             <p>
@@ -78,7 +80,7 @@ export const writing = () => {
               <span>2019</span>
             </div>
             <div class="divImage">
-              <img src="./images/fashionArch.jpg" alt="" />
+              <img src="./images/fashionArch.jpg" aria-hidden="true" />
               <p class="imageCaption">Dressing is Easy by Archizoom</p>
             </div>
             <p>
@@ -93,7 +95,7 @@ export const writing = () => {
               <span>2018</span>
             </div>
             <div class="divImage">
-              <img src="./images/requiem.jpg" alt="" />
+              <img src="./images/requiem.jpg" aria-hidden="true" />
               <p class="imageCaption">Dreaming California by Archizoom</p>
             </div>  
             <p>
@@ -108,7 +110,7 @@ export const writing = () => {
               <span>2018</span>
             </div>
             <div class="divImage">
-              <img src="./images/brasilia.jpg" alt="" />
+              <img src="./images/brasilia.jpg" aria-hidden="true" />
               <p class="imageCaption">Biblioteca Nacional de Brasília</p>
             </div>  
             <p>
@@ -123,7 +125,7 @@ export const writing = () => {
               <span>2017</span>
             </div>
             <div class="divImage">
-              <img src="./images/magnasanti.jpg" alt="" />
+              <img src="./images/magnasanti.jpg" aria-hidden="true" />
               <p class="imageCaption">MagnaSanti by Vincent Ocasla</p>
             </div>  
             <p>
@@ -139,7 +141,7 @@ export const writing = () => {
               <span>2017</span>
             </div>
             <div class="divImage">
-              <img src="./images/modulor.jpg" alt="" />
+              <img src="./images/modulor.jpg" aria-hidden="true" />
               <p class="imageCaption">Modulor by Thomas Carpentier</p>
             </div>
             <p>

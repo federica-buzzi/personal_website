@@ -22,7 +22,7 @@ export const home = () => {
         </a>
       </li>
       <li>
-        <a id="toCodingProjects">
+        <a href="https://github.com/federica-buzzi" target="_blank">
           { }&nbsp;&nbsp;Code
         </a>
       </li>

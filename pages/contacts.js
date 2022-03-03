@@ -21,11 +21,6 @@ export const contacts = () => {
           💬&nbsp;&nbsp;&nbsp;&nbsp;Linkedin
         </a>
       </li>
-      <li>
-        <a href="https://github.com/federica-buzzi" target="_blank">
-          🐙&nbsp;&nbsp;&nbsp;&nbsp;GitHub
-        </a>
-      </li></br>
     </ul>
   </nav>`;
   document.querySelector('main').innerHTML = contentContacts;

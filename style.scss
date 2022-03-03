@@ -1,5 +1,7 @@
-@import "@fortawesome/fontawesome-free/css/all.css";
 @import "./style/font";
+
+//general
+
 *{
     box-sizing: border-box;
     padding:0;
@@ -7,151 +9,124 @@
     scroll-behavior: smooth;
 }
 
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.back-sign{
+    position: absolute;
+    position: fixed; 
+    top: 90%; 
+    left: 50%; 
+    transform: translate(-50%); 
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px;
+    line-height: 90px;
+    font-size: 40px;
+    font-family: "VG5000"; 
+    text-decoration: none; 
+}  
+
+.back-sign-black {
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style-type: none; 
+}
 //white pages
 
-section {
+.main-nav {
     font-family: "VG5000"; 
+    color: black; 
     font-size: 28px;
-    width: 300px; 
+    width: 250px; 
     position: fixed; 
     top : 50%; 
     left: 50%; 
-    transform: translate(-50%, -50%);
-    text-align: center;
-    line-height: 1; 
+    transform: translate(-50%, -50%); 
 
     @media screen and (min-width: 768px){
-        width:600px; 
+        width:500px; 
         font-size: 55px;  
         top: 55%; 
     } 
 
-  
-    span{
-        font-size: 25px;  
-
+    li{
         @media screen and (min-width: 768px){
-        font-size: 55px;  
-        } 
+            line-height: 120px; 
+            height: 80px; 
+            padding-left: 10px;
+        }
+        a{
+            color: black; 
+            text-decoration: none; 
+        }
     }
 
-    a{
-        text-decoration: none;
-        color: white; 
-        -webkit-text-stroke: 2px rgb(0, 0, 0);
-    }
-
-    a:hover {
-        text-decoration: underline; 
-    }
-
-
-    i{
-        font-size: 30px;
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	    transform: scale(1);
-	    animation: pulse 2s infinite;
-        @keyframes pulse {
-            0% {
-            transform: scale(0.65);
-            }
-            70% {
-            transform: scale(1);
-            }
-            100% {
-            transform: scale(0.65);
-            }
-        }    
-        @media screen and (min-width: 768px){
-        font-size: 40px; 
-        } 
-    }
+    li:hover {
+        background-color: black ;
+        cursor: pointer;
+        a{
+            color: white;
+        }  
+    } 
 }   
 
+.contacts-nav{
+        width: 200px; 
+        @media screen and (min-width: 768px){
+            width: 350px; 
+        }
+    }
 
 
-.runningTextContacts{
-    width: 100%;
-    background-color: black;
-    position: fixed;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    z-index: 2;
+// running texts
 
-    span{
-        color: white;
-        font-family: "VG5000"; 
-        font-size: 40px; 
-        text-transform: uppercase;
-        vertical-align: middle;
-        line-height: 100px;
-    } 
-
-    @media screen and (min-width: 768px){ 
-        height: 100px;
-        line-height: 100px;
-        span{
-            font-size: 50px;
-            line-height: 130px; 
-        }    
-    } 
-}
-
-.runningText{
+.running-text{
     width: 100%;
     background-color:white;
     position: fixed;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
+    height: 60px;
     z-index: 2;
-
+    @media screen and (min-width: 768px){ 
+        height: 100px;
+    }
     span{
         color: black;
         font-family: "VG5000"; 
         font-size: 40px; 
+        line-height: 90px;
         text-transform: uppercase;
-        vertical-align: middle;
-        line-height: 100px;
-    } 
-
-    @media screen and (min-width: 768px){ 
-        height: 100px;
-        line-height: 100px;
-        span{
+        @media screen and (min-width: 768px){
             font-size: 50px;
             line-height: 130px; 
         }    
     }  
 }
 
-.credits{
-    @media screen and (min-width: 768px){  
+.running-text-contacts{
+    background-color: black;
+    span{
         color: white;
-        font-family: "VG5000"; 
-        font-size: 13px;   
-        position: fixed;
-        text-transform: uppercase; 
-        text-decoration:none;
-        bottom:1%; 
-        right: 1%;
-        writing-mode: vertical-rl;
-        
-    a{
-        text-decoration: none;
-        color: white; 
-    }
-    } 
+    }   
 }
 //make it a marquee
-
 .marquee{
     overflow: hidden;
     white-space: nowrap;
-    animation: marquee 45s linear infinite;
+    animation: marquee 10s linear infinite;
 }
-
 
 // make it move
 @keyframes marquee {
@@ -159,330 +134,280 @@ section {
     100% { text-indent: -50em }
 }
 
+//credits
 
-
-// black pages
-
-#fixedMenu {
-    text-transform: uppercase;
-    background-color: black;
+.credits{
+    color: black;
     font-family: "VG5000"; 
-    color: white; 
-    padding-top: 8%; 
-    display: none;
+    font-size: 13px;   
     position: fixed;
-    top:0; 
-    left:0;
-    width:100%;
-    height:100vh;
-
-    @media screen and (min-width: 768px){
-        display: block; 
-        width:50%;  
-    }
-
-    ul {
-       list-style-type: none; 
-
-       li{
-           padding: 3% 5% 3%; 
-
-            a{
-                text-decoration: none;
-                color:white; 
-                font-family: "VG5000";
-                font-size: 25px;  
-                transition: 0.5s font-variation-settings ease-in;
-            }
-
-            a:hover {
-               text-decoration: underline;
-            }
-        }       
-    }
-
-    .chevronHome{
-        font-size: 52px;     
+    text-decoration:none;
+    bottom:1%; 
+    right: 1%;
+    writing-mode: vertical-rl;
+    a{
+        color:inherit; 
+        text-decoration: none;
     }
     
 }
 
-#contentContainer {
-    background-color: black;
-    font-size: 16px;
-    color: white; 
-    padding-right: 5%; 
-    padding-left: 5%;
-    @media screen and (min-width: 768px){
-        font-size: 18px;  
-    }
+//page container 
 
-    p{
-      font-family: "spaceGrotesk"; 
-      line-height: 150%; 
-    }
-
-    .title{
-        text-transform: uppercase;
-        font-family: "VG5000"; 
-        font-size: 28px; 
-        padding-bottom: 3%;
-        @media screen and (min-width: 768px){
-          font-size: 32px;
-        }
-    }
-
-    .subtitle{
-        font-family: "VG5000"; 
-        display: flex; 
-        justify-content: space-between;
-        font-size: 20px; 
-        padding-top: 2%;
-        padding-bottom: 2%;
-        @media screen and (min-width: 768px){
-          font-size: 25px;
-        }
-    }
-
-    .skillsSubtitle{
-        font-family: "spaceGrotesk"; 
-        font-size: 20px; 
-        padding-top: 2%;
-        padding-bottom: 2%;
-        @media screen and (min-width: 768px){
-          font-size: 25px;
-        }
-    }
-
-    .languagesSubtitle{
-        font-family: "spaceGrotesk";
-        display:flex;  
-        font-size: 20px; 
-        padding-top: 2%;
-        padding-bottom: 2%;
-        justify-content: space-between;
-        @media screen and (min-width: 768px){
-          font-size: 25px;
-        }
-    }
-
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 100%;     
-    }
-
-    .imageCaption{
-        color: white; 
-        font-size: 10px;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        @media screen and (min-width: 768px){
-          font-size: 12px;
-        }
-    }
-
-    .divImage{
-        display: flex; 
-        width: 100%; 
-    }
-
-    #demimmonde, #fashionablyLate, #threeDrifts, #thtlalit, #degrowth, #urania, #brasilia, #fashionArch, #requiem, #gamespace, #modulor, #about, #itSkills, #otherSkills, #languages, #education, #experience, #residenciesAwards, #logiciElles, #covidKiller, #hackerFlix{
-        padding-top: 21%;   
-    }
-
-    #thtlalit, #modulor, #ResidenciesAwards, #hackerFlix {
-        padding-bottom: 22%;
-    }
-
-    .infoLinks{
-        color: white; 
-        text-decoration: none; 
-        font-family: "spaceGrotesk"; 
-    }
-    .infoLinks:hover {
-        text-decoration: underline;
-    }
-
-
-    .downloadLinks{
-        color: white; 
-        font-size: 18px;
-        font-family: "spaceGrotesk";
-        text-decoration: none; 
-        font-family: "spaceGrotesk";
-        text-transform: uppercase;
-        border: solid white 1px; 
-        border-radius : 30px;
-        padding: 3px 10px 6px 10px;
-        margin: auto;
-        @media screen and (min-width: 768px){
-          font-size: 20px;
-        }
-    }
-    .downloadLinks:hover {
-        color: black;
-        background-color: white;
-    } 
-}
-
-
-#pageContainer {
+.page-container {
     background-color: black;
     height: 100vh;
-    
     @media screen and (min-width: 768px){
         padding-left: 50%; 
     }
 
-    .backSign{
-        position: absolute;
-        position: fixed; 
-        top: 90%; 
-        left: 50%;  
-        background-color: white;
-        border-radius: 50%;
-        width: 52px; 
-        height: 52px; 
-        text-align: center; 
-        line-height: 52px;
-        font-size: 52px;
+    .fixed-menu {
+        text-transform: uppercase;
+        background-color: black;
         font-family: "VG5000"; 
-        text-decoration: none; 
-        color: black; 
-        transform: translate(-50%);
-
+        color: white; 
+        padding-top: 10%; 
+        padding-left: 3%;
+        display: none;
+        position: fixed;
+        top:0; 
+        left:0;
+        width:100%;
+        height:100vh;
+        font-size: 25px; 
         @media screen and (min-width: 768px){
-            display: none;  
+            display: block; 
+            width:50%;  
         }
-    }  
-}
 
-
-
-//cv
-
-.listSkills {
-    list-style-type: none;
-    color: white; 
-    font-family: "spaceGrotesk";
-    font-size: 16px;
-    line-height: 150%; 
-    margin: 3%;  
-    @media screen and (min-width: 768px){
-        font-size: 18px;
+        li{ 
+            height: 60px;
+            a{ 
+                padding-top: 20px;
+                text-decoration: none;
+                color:white;
+            }
+            a:hover{
+                background-color: white;
+                color:black; 
+            }
+        }         
     }
-}
+    
+    //content container 
 
-.levelLangue{
-    font-family: "spaceGrotesk";
-    font-size: 16px;
-    @media screen and (min-width: 768px){
-        font-size: 18px;
-    }
-}
+    .content-container {
+        background-color: black;
+        font-size: 16px;
+        color: white; 
+        padding-right: 5%; 
+        padding-left: 5%;
+        @media screen and (min-width: 768px){
+            font-size: 18px;  
+        }
 
-.containerFlex{
-    display: flex; 
-    font-family: "VG5000";
-    font-size: 18px;
-    line-height: 150%; 
-    justify-content: space-between;
-    padding: 5% 0;
-    @media screen and (min-width: 768px){
-        font-size: 20px;
-    }
-    .flexDate{
-        width: 15%; 
-        text-align: left; 
-    }  
-    ul{
-        list-style-type: none;
-    }
-    .flexPlace{ 
-        width: 15%;
-        text-align: right; 
-    }
-    .centralPart{
-        width: 70%; 
+        .coming-soon {
+            font-family: "VG5000";
+            color: white; 
+            font-size: 70px;
+        }
+        p{
+            font-family: "spaceGrotesk"; 
+            font-weight: 300;
+            line-height: 150%; 
+        }
 
-        .flexTitle{
-            font-size: 22px; 
-            font-family: "spaceGrotesk";
-            font-weight: bold; 
+        .title{
+            text-transform: uppercase;
+            font-family: "VG5000"; 
+            font-size: 28px; 
+            padding-bottom: 3%;
+            @media screen and (min-width: 768px){
+                font-size: 32px;
+            }
+        }
+
+        .subtitle{
+            font-family: "VG5000"; 
+            display: flex; 
+            justify-content: space-between;
+            font-size: 20px; 
+            padding-top: 2%;
+            padding-bottom: 2%;
             @media screen and (min-width: 768px){
                 font-size: 25px;
             }
-            a{
+        }
+
+        .download-area{
+            font-family: "VG5000"; 
+            display: flex; 
+            justify-content: space-between;
+            padding-top: 2%;
+            .download-links{
                 color: white; 
-                text-decoration: none;
+                font-size: 18px;
+                text-decoration: none; 
+                text-transform: uppercase;
+                border: solid white 1px; 
+                border-radius : 30px;
+                padding: 10px 3px 0px 3px;
+                @media screen and (min-width: 768px){
+                    font-size: 20px;
+                }
+            }
+            .downloadLinks:hover {
+                color: black;
+                background-color: white;
             } 
-            a:hover {
-                text-decoration: underline;
+        }
+
+        //skills section 
+        .skills-subtitle{
+            font-family: "VG5000"; 
+            text-transform: uppercase;
+            font-size: 22px; 
+            padding-top: 2%;
+            margin-top: 5%; 
+            @media screen and (min-width: 768px){
+            font-size: 25px;
             }
         }
 
-        .flexSubtitle{
-            font-size: 16px; 
+        .skills-container {
+            width: 95%;
+            height: 80%; 
             font-family: "spaceGrotesk";
+            font-size: 16px; 
+            color:white;
+            line-height: 150%;
             @media screen and (min-width: 768px){
                 font-size: 18px;
-            }  
+            }
+        } 
+
+        //languages section   
+        .languages-subtitle{
+            font-family: "VG5000";
+            display:flex;
+            text-transform: uppercase;
+            font-size: 22px; 
+            padding-top: 2%;
+            padding-bottom: 2%;
+            justify-content: space-between;
+            @media screen and (min-width: 768px){
+                font-size: 25px;
+            }
+
+            .language-level{
+                text-transform: capitalize;
+                font-size: 16px;
+                @media screen and (min-width: 768px){
+                    font-size: 18px;
+                }
+            } 
         }
-    } 
+
+        //education, experience, residencies
+        .flex-container{
+            display: flex; 
+            font-size: 18px;
+            line-height: 150%; 
+            justify-content: space-between;
+            padding: 5% 0;
+            font-family: "VG5000";
+            @media screen and (min-width: 768px){
+                font-size: 20px;
+            }
+            .flex-date{
+                width: 15%; 
+                text-align: left; 
+            }  
+        
+            .flex-place{ 
+                width: 15%;
+                text-align: right; 
+            }
+            .central-part{
+                width: 70%; 
+                .central-title{
+                    font-size: 22px; 
+                    text-transform: uppercase;
+                    @media screen and (min-width: 768px){
+                        font-size: 25px;
+                    }
+                    a{
+                        color: white; 
+                        text-decoration: none;
+                    } 
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }  
+                .central-description{
+                    font-size: 16px; 
+                    font-family: "spaceGrotesk";
+                    @media screen and (min-width: 768px){
+                        font-size: 18px;
+                    }  
+                }  
+            }
+        }
+        
+        //images
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 100%; 
+            @media screen and (min-width: 768px){
+                filter: grayscale(1); 
+            } 
+    
+        }
+
+        img:hover {
+            filter: grayscale(0);
+        }
+
+        .image-caption{
+            color: white; 
+            font-size: 10px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            @media screen and (min-width: 768px){
+                font-size: 12px;
+            }
+        }
+
+        .div-image{
+            display: flex; 
+            width: 100%; 
+        }
+
+        //padding sections
+
+       section {
+            padding-top: 21%;   
+        }
+
+        #thtlalit, #modulor, #ResidenciesAwards, #hackerFlix {
+            padding-bottom: 22%;
+        }
+
+        .info-links{
+            color: white; 
+            text-decoration: none; 
+            font-family: "spaceGrotesk"; 
+        }
+
+        .info-links:hover {
+            text-decoration: underline;
+        }
+
+    }  
 }
-
-// it skills
-
-
-
-#skillsSingle{
-    width: 105%; 
-    padding-bottom: 4%; 
-}
-
-.containerSkills {
-    text-transform: uppercase;
-    width: 95%;
-    height: 80%; 
-    font-family: "spaceGrotesk";
-    font-size: 16px; 
-    color:white;
-    margin-bottom: 5%; 
-    line-height: 150%;
-    @media screen and (min-width: 768px){
-        font-size: 18px;
-    }
-}
-
-//coding projects
-
-.projectTag{
-    display:flex; 
-    margin-top: 5%;
-    margin-bottom: 5%;
-    justify-content: space-evenly;
-    width: 100%; 
-    .skillTag{ 
-        font-family: "spaceGrotesk";
-        text-transform: uppercase;
-        border: solid white 1px; 
-        border-radius : 30px;
-        padding: 3px 10px 6px 10px;
-        margin: auto;
-    } 
-
-}
-
-
-
-
-
-
-
-

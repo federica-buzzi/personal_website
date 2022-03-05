@@ -21,9 +21,6 @@ document.body.addEventListener('click', (e) => {
   } else if (e.target.matches('#toFedericaBuzzi')) {
     e.preventDefault();
     federicaBuzzi();
-  } else if (e.target.matches('#toCodingProjects')) {
-    e.preventDefault();
-    codingProjects();
   } else if (e.target.matches('#toUXProjects')) {
     e.preventDefault();
     UXProjects();

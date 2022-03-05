@@ -30,7 +30,6 @@ button{
     border-radius: 50%;
     width: 60px; 
     height: 60px;
-    line-height: 90px;
     font-size: 40px;
     font-family: "VG5000"; 
     text-decoration: none; 
@@ -63,10 +62,12 @@ ul{
     } 
 
     li{
+        position:relative; 
         @media screen and (min-width: 768px){
-            line-height: 120px; 
-            height: 80px; 
             padding-left: 10px;
+        }
+        div{
+            top: 50%
         }
         a{
             color: black; 
@@ -106,7 +107,6 @@ ul{
         color: black;
         font-family: "VG5000"; 
         font-size: 40px; 
-        line-height: 90px;
         text-transform: uppercase;
         @media screen and (min-width: 768px){
             font-size: 50px;
@@ -183,7 +183,6 @@ ul{
         li{ 
             height: 60px;
             a{ 
-                padding-top: 20px;
                 text-decoration: none;
                 color:white;
             }
@@ -251,7 +250,7 @@ ul{
                 text-transform: uppercase;
                 border: solid white 1px; 
                 border-radius : 30px;
-                padding: 10px 3px 0px 3px;
+                padding: 5px 10px 5px 10px;
                 @media screen and (min-width: 768px){
                     font-size: 20px;
                 }
@@ -278,6 +277,7 @@ ul{
             width: 95%;
             height: 80%; 
             font-family: "spaceGrotesk";
+            font-weight: 300; 
             font-size: 16px; 
             color:white;
             line-height: 150%;
@@ -346,6 +346,7 @@ ul{
                 }  
                 .central-description{
                     font-size: 16px; 
+                    font-weight: 300; 
                     font-family: "spaceGrotesk";
                     @media screen and (min-width: 768px){
                         font-size: 18px;
@@ -402,6 +403,7 @@ ul{
         .info-links{
             color: white; 
             text-decoration: none; 
+            font-weight: 300; 
             font-family: "spaceGrotesk"; 
         }
 

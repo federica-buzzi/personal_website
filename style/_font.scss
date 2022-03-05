@@ -1,15 +1,26 @@
+
 @font-face{
-    font-family: "spaceGrotesk";
-    src: url(./static/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+    font-family: 'VG5000';
+    src:  
+        url(./static/fonts/VG5000/VG5000-Regular-edited.woff)  format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face{
-    font-family: "VG5000";
-    src: url(./static/fonts/VG5000/VG5000-Regular_web.ttf);
-    font-weight: normal;
-    font-style: normal;
+@supports(font-variation-settings: normal){
+    @font-face{
+        font-family: "spaceGrotesk";
+        src: url(./static/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
 }
 
-
+@supports not (font-variation-settings: normal){
+     @font-face{
+        font-family: "spaceGrotesk";
+        src: url(./static/fonts/Space_Grotesk/SpaceGrotesk-Light.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+}

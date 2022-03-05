@@ -17,9 +17,9 @@ export const home = () => {
   <nav>
     <ul class="main-nav">
       <li>
-        <a id="toFedericaBuzzi">
+          <a id="toFedericaBuzzi">
             ☄&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Federica Buzzi 
-        </a>
+          </a>
       </li>
       <li>
         <a href="https://github.com/federica-buzzi" target="_blank">

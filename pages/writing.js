@@ -65,7 +65,7 @@ export const writing = () => {
             </p><br/>
             <a href="https://womendotcode.be/blog/getting-started-with-variable-fonts/" target="_blank" class="info-links">Read full article</a> 
           </section>
-          <section id="swimmingPool">
+          <section id="swimmingPools">
             <span class="title">Reflections on public swimming pools</span>
             <div class="subtitle">
               <span>Woman Cave</span>

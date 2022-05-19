@@ -23,7 +23,7 @@ export const home = () => {
       </li>
       <li>
         <a href="https://github.com/federica-buzzi" target="_blank">
-          { }&nbsp;&nbsp;Code
+          🐙&nbsp;&nbsp;&nbsp;Code
         </a>
       </li>
       <li>

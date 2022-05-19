@@ -27,16 +27,6 @@ export const home = () => {
         </a>
       </li>
       <li>
-        <a id="toUXProjects">
-          🔎&nbsp;&nbsp;&nbsp;&nbsp;UX research
-        </a>
-      </li>
-      <li>
-        <a id="toDesignProjects">
-          🖼&nbsp;&nbsp;&nbsp;&nbsp;Design
-        </a>
-      </li>
-      <li>
         <a id="toWriting">
           ✎&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Writing
         </a>
@@ -47,14 +37,19 @@ export const home = () => {
         </a>
       </li>
       <li>
-        <a id="toContacts">
-          🗩&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connect
+        <a id="toDesignProjects">
+          🖼&nbsp;&nbsp;&nbsp;&nbsp;Design
+        </a>
+      </li>
+      <li>
+        <a id="toUXProjects">
+          🔎&nbsp;&nbsp;&nbsp;&nbsp;UX research
         </a>
       </li>
     </ul>
   </nav>
   <p class="credits">
-    <a href= "http://velvetyne.fr/fonts/vg5000/"> typeface: VG5000</a>
+    <a href= "http://velvetyne.fr/fonts/vg5000/"> Typeface: VG5000</a>
   </p>`;
   document.querySelector('main').innerHTML = contentHome;
 };

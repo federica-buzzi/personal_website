@@ -10,6 +10,16 @@ export const writing = () => {
         <nav class="fixed-menu">
           <ul>
             <li>
+              <a href="#variableFonts"
+                >Getting started with variable fonts</a
+              >
+            </li>
+            <li>
+              <a href="#swimmingPools"
+                >Reflections on public swimming pools</a
+              >
+            </li>
+            <li>
               <a href="#degrowth"
                 >Coming to terms with a growth free architecture</a
               >
@@ -40,6 +50,36 @@ export const writing = () => {
         </nav>
         <div class="content-container">
           <button class="back-sign backSign"><<</button>
+           <section id="variableFonts">
+            <span class="title">Getting started with variable fonts</span>
+            <div class="subtitle">
+              <span>women.code(be)</span>
+              <span>2022</span>
+            </div>
+            <div class="div-image">
+              <img src="./images/variable_fonts.jpg" aria-hidden="true" />
+              <p class="image-caption">Ph_Markus Spiske</p>
+            </div>  
+            <p>
+              You might not be a web typography freak, but no developer likes a FOUT (Flash Of Unstyled Text) welcoming users on their pages. Variable fonts are here to help. And if you really are kind of a web typography freak, you will be even more enticed to hear about variable fonts.
+            </p><br/>
+            <a href="https://womendotcode.be/blog/getting-started-with-variable-fonts/" target="_blank" class="info-links">Read full article</a> 
+          </section>
+          <section id="swimmingPool">
+            <span class="title">Reflections on public swimming pools</span>
+            <div class="subtitle">
+              <span>Woman Cave</span>
+              <span>2020</span>
+            </div>
+            <div class="div-image">
+              <img src="./images/swimming_pool.jpg" aria-hidden="true" />
+              <p class="image-caption">Bains de Bruxelles-Ville, Ph_Serena Vittorini</p>
+            </div>  
+            <p>
+              I learned to swim around twenty years ago in a public swimming pool, as a result of my parents' firm decision that it was an important skill to have in life. The arguments in favor of swimming were grounded in unquestionable common sense, such as the lifelong threat that water environments represent in the lack of such ability, and the promise of getting broad shoulders and endorphins.
+            </p><br/>
+            <a href="https://womancave.bigcartel.com/product/woman-journal-vol-1/" target="_blank" class="info-links">Read full article</a> 
+          </section>
           <section id="degrowth">
             <span class="title">Coming to terms with</br> a growth free architecture</span>
             <div class="subtitle">

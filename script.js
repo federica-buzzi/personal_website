@@ -1,6 +1,5 @@
 import './style.scss';
 import { home } from './pages/home';
-import { contacts } from './pages/contacts';
 import { federicaBuzzi } from './pages/federicaBuzzi';
 import { codingProjects } from './pages/codingProjects';
 import { UXProjects } from './pages/UXProjects';
@@ -14,10 +13,6 @@ document.body.addEventListener('click', (e) => {
   if (e.target.matches('#toHome')) {
     e.preventDefault();
     home();
-  } else if (e.target.matches('#toContacts')
-  ) {
-    e.preventDefault();
-    contacts();
   } else if (e.target.matches('#toFedericaBuzzi')) {
     e.preventDefault();
     federicaBuzzi();

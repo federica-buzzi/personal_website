@@ -32,20 +32,29 @@ export const federicaBuzzi = () => {
             <li>
               <a href="#residenciesAwards">Residencies & Awards</a>
             </li>
+            <li>
+              <a href="#contacts">Contacts</a>
+            </li>
           </ul>
         </nav>
         <div class="content-container">
           <button class="back-sign backSign"><<</button>
           <section id="about">
             <div class="title">About</div>
+            <div class="div-image">
+              <img src="./images/portrait_federica.jpg" aria-hidden="true" />
+              <p class="image-caption">Ph_Anne-Sophie Guillet</p>
+            </div> 
             <p>
-              With a background in art and architecture, I was always fascinated by the impact of technology on contemporary artistic and architectural practices, and I worked on several projects at the intersection of art and tech. 
+              With a background in art and architecture, I was always fascinated by the impact of technology on contemporary artistic and architectural practices, and I worked on several projects at the interface of art and tech. 
             </p></br>
             <p>
               In 2020, wanting to integrate technical skills into my profile, I joined the Web Application Developer Training at Interface3 in Brussels. Thanks to this year-long comprehensive program, I gained an overview on how the web works, from front end to back end and databases.
             </p></br>
             <p>
-              After the course I decided to delve deeper into front-end development and found internship opportunities within the field. Naturally drawn toward visual communication, I have some experience in graphic design and I am currently expanding my skills by taking courses in infographics, motion design and UX design and research
+              After the course I decided to delve deeper into front-end development and found internship opportunities within the field.
+            </p></br>
+            <p> Naturally drawn toward visual communication, I have some experience in graphic design and I am currently expanding my skills by taking courses in infographics, motion design and UX design and research.
             </p></br>
             <div class="download-area">
               <a class="download-links" href="./downloadable/FedericaBuzziCV_EN.pdf" download>⬇ CV (EN)</a>
@@ -395,6 +404,24 @@ export const federicaBuzzi = () => {
               </div>
               <div class="flex-place">UK</div>
             </div>    
+          </section>
+           <section id="contacts">
+            <div class="title">Contacts</div>
+            <ul class="contacts">
+              <li>
+                <a href="mailto:infofedericabuzzi@gmail.com">
+                  ✉&nbsp; infofedericabuzzi[at]gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/federica-buzzi" target="_blank">
+                  💬&nbsp;Linkedin
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/federica-buzzi" target="_blank">🐙&nbsp;GitHub</a>
+              </li>
+          </ul>  
           </section>
         </div>
       </div>`;

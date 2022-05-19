@@ -98,19 +98,19 @@ ul{
     width: 100%;
     background-color:white;
     position: fixed;
-    height: 60px;
+    height: 45px;
     z-index: 2;
     @media screen and (min-width: 768px){ 
-        height: 100px;
+        height: 60px;
     }
     span{
         color: black;
         font-family: "VG5000"; 
         font-size: 40px; 
         text-transform: uppercase;
+        vertical-align: center;
         @media screen and (min-width: 768px){
-            font-size: 50px;
-            line-height: 130px; 
+            font-size: 50px; 
         }    
     }  
 }
@@ -255,7 +255,7 @@ ul{
                     font-size: 20px;
                 }
             }
-            .downloadLinks:hover {
+            .download-links:hover {
                 color: black;
                 background-color: white;
             } 
@@ -341,7 +341,8 @@ ul{
                         text-decoration: none;
                     } 
                     a:hover {
-                        text-decoration: underline;
+                        color: black;
+                        background-color: white; 
                     }
                 }  
                 .central-description{
@@ -354,6 +355,33 @@ ul{
                 }  
             }
         }
+
+        //contacts
+
+        .contacts{
+            font-family: "VG5000";
+            font-size: 22px; 
+            padding-top: 2%;
+            padding-bottom: 2%;
+            @media screen and (min-width: 768px){
+                font-size: 25px;
+            }
+
+            li{ 
+                padding-top: 2%;
+                padding-bottom: 2%;
+                a{ 
+                    text-decoration: none;
+                    color:white;
+                }
+                a:hover{
+                    background-color: white;
+                    color:black; 
+                }
+            }    
+ 
+        }
+
         
         //images
         img {
@@ -408,7 +436,8 @@ ul{
         }
 
         .info-links:hover {
-            text-decoration: underline;
+            background-color: white;
+            color: black; 
         }
 
     }  

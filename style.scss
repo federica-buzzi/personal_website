@@ -301,6 +301,7 @@ ul{
 
             .language-level{
                 text-transform: capitalize;
+                font-family: "SpaceGrotesk";
                 font-size: 16px;
                 @media screen and (min-width: 768px){
                     font-size: 18px;
@@ -345,6 +346,15 @@ ul{
                         background-color: white; 
                     }
                 }  
+                .central-subtitle{
+                    font-size: 16px; 
+                    font-family: "spaceGrotesk";
+                    font-weight: 700; 
+                    @media screen and (min-width: 768px){
+                        font-weight: 700; 
+                        font-size: 18px;
+                    }
+                }
                 .central-description{
                     font-size: 16px; 
                     font-weight: 300; 

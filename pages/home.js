@@ -3,15 +3,15 @@ export const home = () => {
   <div class="running-text running-text-contacts marquee runningTextContacts">
     <span>
       front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      brussels &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
       front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      brussels &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
       front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      brussels &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
       front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      brussels &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
       front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      brussels &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+      UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
     </span>
   </div>  
   <nav>

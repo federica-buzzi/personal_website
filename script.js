@@ -1,7 +1,6 @@
 import './style.scss';
 import { home } from './pages/home';
 import { federicaBuzzi } from './pages/federicaBuzzi';
-import { codingProjects } from './pages/codingProjects';
 import { UXProjects } from './pages/UXProjects';
 import { designProjects } from './pages/designProjects';
 import { curatorialProjects } from './pages/curatorialProjects';

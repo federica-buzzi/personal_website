@@ -1,7 +1,7 @@
 export const curatorialProjects = () => {
   const contentCuratorialProjects = `
-    <div class="running-text marquee">
-      <span>
+    <div class="running-text">
+      <span class="marquee">
       curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;curating&nbsp;&nbsp;&nbsp~&nbsp;&nbsp;&nbsp;
       </span>
     </div>

@@ -1,7 +1,7 @@
 export const codingProjects = () => {
   const contentCodingProjects = `
-  <div class="running-text marquee">
-    <span>
+  <div class="running-text">
+    <span class="marquee">
       code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
     </span>  
   </div>

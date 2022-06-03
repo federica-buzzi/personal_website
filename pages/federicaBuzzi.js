@@ -1,7 +1,7 @@
 export const federicaBuzzi = () => {
   const contentFedericaBuzzi = `
-  <div class="running-text marquee">
-    <span>
+  <div class="running-text">
+    <span class="marquee">
       Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
     </span>  
   </div>
@@ -64,7 +64,7 @@ export const federicaBuzzi = () => {
               <div class="central-part">
                 <ul>
                   <li class="central-title"><a href="https://www.gotombola.co/" target="_blank">GoTombola</a></li>
-                  <li class="central-subtitle">Front-end developer</li>
+                  <li class="central-subtitle">Front-End Developer</li>
                   <li class="central-description">Video development with Remotion ~ Motion design</li>
                 </ul>
               </div>
@@ -80,8 +80,8 @@ export const federicaBuzzi = () => {
               <div class="central-part">
                 <ul>
                   <li class="central-title"><a href="https://www.metabolic.nl/" target="_blank">Metabolic</a></li>
-                  <li class="central-subtitle">Front-end intern</li>
-                  <li class="central-description">Vue.js ~ Vuex ~ Accessibility ~ Cross-browser testing ~ Responsive web design ~ JavaScript 2D animation ~ Assisting with usability testing</li>
+                  <li class="central-subtitle">Front-End Intern</li>
+                  <li class="central-description">Vue.js ~ Vuex ~ Accessibility ~ Cross-browser testing ~ Responsive web development ~ SVG animation ~ Assisting with usability testing</li>
                 </ul>
               </div>
               <div class="flex-place">NL</div>
@@ -95,7 +95,7 @@ export const federicaBuzzi = () => {
               <div class="central-part">
                 <ul>
                   <li class="central-title">PHPPRO</li>
-                  <li class="central-subtitle">Front-end intern</li>
+                  <li class="central-subtitle">Front-End Intern</li>
                   <li class="central-description">React ~ ApexCharts ~ Storybook ~ Figma design and mockup  </li>
                 </ul>
               </div>
@@ -202,7 +202,7 @@ export const federicaBuzzi = () => {
             </p>
             <div class="skills-subtitle">Design</div>
             <p class="skills-container">
-              Figma ~ InDesign ~ Illustrator ~ Photoshop
+              Figma ~ Miro ~ InDesign ~ Illustrator ~ Photoshop
             </p>  
             <div class="skills-subtitle">Motion Design</div>
             <p class="skills-container">

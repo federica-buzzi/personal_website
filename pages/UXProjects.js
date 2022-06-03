@@ -1,7 +1,7 @@
 export const UXProjects = () => {
   const contentUXProjects = ` 
-  <div class="running-text marquee">
-    <span>
+  <div class="running-text">
+    <span class="marquee">
       UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
     </span>  
   </div>

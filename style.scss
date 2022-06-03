@@ -117,21 +117,24 @@ ul{
 
 .running-text-contacts{
     background-color: black;
+    position: relative;
     span{
         color: white;
     }   
 }
 //make it a marquee
 .marquee{
+    position: absolute;
     overflow: hidden;
     white-space: nowrap;
-    animation: marquee 10s linear infinite;
+    animation: marqueeAnimation 10s linear infinite;
+    transition: all 2s ease;
 }
 
 // make it move
-@keyframes marquee {
-    0%   { text-indent: 0em }
-    100% { text-indent: -50em }
+@keyframes marqueeAnimation {
+    from   { transform: translateX(0%); }
+    to { transform: translateX(-50%); }
 }
 
 //credits

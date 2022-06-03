@@ -1,7 +1,7 @@
 export const writing = () => {
   const contentWriting = ` 
-  <div class="running-text marquee">
-    <span>
+  <div class="running-text">
+    <span class="marquee">
       writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
       writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
     </span>  

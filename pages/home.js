@@ -1,18 +1,16 @@
 export const home = () => {
   const contentHome = `
-  <div class="running-text running-text-contacts">
-      <span class="marquee">
-        front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-        UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      </span>
+  <div class="running-text running-text-contacts marquee">
+    front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    front-end developer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
+    UX-UI designer &nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
   </div>  
   <nav>
     <ul class="main-nav">

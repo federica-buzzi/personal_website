@@ -1,9 +1,7 @@
 export const federicaBuzzi = () => {
   const contentFedericaBuzzi = `
-  <div class="running-text">
-    <span class="marquee">
-      Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-    </span>  
+  <div class="running-text marquee">
+      Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;Federica Buzzi&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;  
   </div>
       <div class="page-container">
         <nav class="fixed-menu">

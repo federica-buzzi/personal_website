@@ -1,9 +1,7 @@
 export const UXProjects = () => {
   const contentUXProjects = ` 
-  <div class="running-text">
-    <span class="marquee">
-      UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-    </span>  
+  <div class="running-text marquee">
+      UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;UX research&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp; 
   </div>
    <div class="page-container">
     <nav class="fixed-menu">

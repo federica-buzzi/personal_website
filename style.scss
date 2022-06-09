@@ -100,43 +100,33 @@ ul{
     position: fixed;
     height: 45px;
     z-index: 2;
+    color: black;
+    font-family: "VG5000"; 
+    font-size: 40px; 
+    text-transform: uppercase;
+    vertical-align: center;
     @media screen and (min-width: 768px){ 
         height: 60px;
+        font-size: 50px; 
     }
-    span{
-        color: black;
-        font-family: "VG5000"; 
-        font-size: 40px; 
-        text-transform: uppercase;
-        vertical-align: center;
-        @media screen and (min-width: 768px){
-            font-size: 50px; 
-        }    
-    }  
 }
 
 .running-text-contacts{
     background-color: black;
-    position: relative;
-    span{
-        color: white;
-    }   
+    color: white;
 }
 //make it a marquee
 .marquee{
-    position: absolute;
     overflow: hidden;
     white-space: nowrap;
-    animation: marqueeAnimation 10s linear infinite;
-    transition: all 2s ease;
+    animation: marquee 10s linear infinite;
 }
 
 // make it move
-@keyframes marqueeAnimation {
-    from   { transform: translateX(0%); }
-    to { transform: translateX(-50%); }
+@keyframes marquee {
+    0%   { text-indent: 0em }
+    100% { text-indent: -50em }
 }
-
 //credits
 
 .credits{

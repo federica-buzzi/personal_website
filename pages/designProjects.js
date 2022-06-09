@@ -1,9 +1,7 @@
 export const designProjects = () => {
   const contentDesignProjects = ` 
-  <div class="running-text">
-    <span class="marquee">
+  <div class="running-text marquee">
       design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;design&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-    </span>  
   </div>
   <div class="page-container">
     <nav class="fixed-menu">

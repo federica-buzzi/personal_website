@@ -1,10 +1,8 @@
 export const writing = () => {
   const contentWriting = ` 
-  <div class="running-text">
-    <span class="marquee">
+  <div class="running-text marquee">
       writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-      writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-    </span>  
+      writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;writing&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp; 
   </div>
   <div class="page-container">
         <nav class="fixed-menu">

@@ -1,9 +1,7 @@
 export const codingProjects = () => {
   const contentCodingProjects = `
-  <div class="running-text">
-    <span class="marquee">
+  <div class="running-text marquee">
       code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;code&nbsp;&nbsp;&nbsp;~&nbsp;&nbsp;&nbsp;
-    </span>  
   </div>
   <div class="page-container">
     <nav class="fixed-menu">

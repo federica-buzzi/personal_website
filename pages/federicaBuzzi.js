@@ -97,7 +97,7 @@ export const federicaBuzzi = () => {
                   <li class="central-description">React ~ ApexCharts ~ Storybook ~ Figma design and mockup  </li>
                 </ul>
               </div>
-              <div class="flex-place">JP</div>
+              <div class="flex-place">FR</div>
             </div>
             <div class="flex-container">
               <div class="flex-date">

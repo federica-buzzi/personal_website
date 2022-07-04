@@ -44,7 +44,7 @@ export const federicaBuzzi = () => {
               After the course I decided to delve deeper into front-end development and found internship opportunities within the field. Naturally drawn toward visual communication, I have some experience in graphic design and I am currently expanding my skills by taking courses in infographics, motion design and UX design and research.
             </p></br>
             <p>
-              I am currently looking for a new job: I am especially interested in front-end and UX/UI roles that bring together creativity and technical skills.
+              I am especially interested in front-end and UX/UI roles that bring together creativity and technical skills.
             </p></br>
             <div class="download-area">
               <a class="download-links" href="./downloadable/FedericaBuzziCV_EN.pdf" download>⬇ CV (EN)</a>
